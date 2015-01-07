@@ -1,0 +1,85 @@
+$flowdock-light-grey: #E4E4E4;
+$flowdock-icon-grey: #777777;
+$flowdock-border-grey: #C0C0C0;
+
+.list {
+  .panel-heading {
+    background: #FFF;
+    border-bottom: 2px solid $flowdock-border-grey;
+
+    &:hover {
+      cursor: pointer;
+    }
+  }
+
+  .panel-body {
+    padding-top: 0 !important;
+    border-top: none !important;
+  }
+
+  .panel {
+    border-left: 1px solid $flowdock-border-grey;
+    border-top-width: 0;
+    border-radius: 0;
+  }
+
+  &.panel-group {
+    margin-bottom: 0;
+  }
+
+  .add-new {
+    margin-top: 9px;
+  }
+}
+
+.list-item {
+  .row:first-child {
+    border-top: 1px solid $flowdock-light-grey;
+  }
+
+  .checkbox {
+    margin-top: 9px;
+  }
+
+  .textbox {
+    width: 100%;
+    padding: 4px;
+    margin-left: -4px;
+    border: 1px solid #FFF;
+    border-radius: 2px;
+    font-size: 14px;
+  }
+
+  .avatar {
+    border-radius: 2px;
+    border: 1px solid $flowdock-border-grey;
+  }
+
+  .avatar,
+  .date {
+    color: $flowdock-icon-grey;
+    margin: 5px 5px 7px 0;
+    display: inline-block;
+
+    .icon {
+      font-size: 19px;
+      display: inline-block;
+      padding: 4px;
+    }
+
+    .text {
+      font-size: 12px;
+      margin-right: 4px;
+      float: right;
+      line-height: 28px;
+    }
+  }
+
+  .tool {
+    color: $flowdock-icon-grey;
+    font-size: 19px;
+    float: right;
+    padding: 5px 5px 0 0;
+    cursor: pointer;
+  }
+}
